@@ -7,9 +7,12 @@ import Image from 'next/image';
 import React from 'react'
 
 const SearchFilters = () => {
+  const [filter, setFilters] = useState({});
   return (
-    <div>SearchFilters</div>
+    <Flex bg="gray.100" p="4" justifyContent="center" flex-wrap="wrap">
+
+    </Flex>
   )
 }
 
-export default SearchFilters
+export default SearchFilters;
